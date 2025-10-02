@@ -3,7 +3,7 @@ import { PRIMARY_COLOR, SECONDARY_COLOR, TERCIARY_COLOR } from "@/app/globals_va
 type Info_skill ={
     image_path: string;
     name: string;
-    percentage: Number;
+    percentage: number;
 }
 
 

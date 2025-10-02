@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from '@/components/header';
 import Skill from '@/components/skill';
 import Experiencia from "@/components/experiencia";

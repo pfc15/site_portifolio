@@ -114,7 +114,7 @@ export default function Projetos(
             <motion.div className="relative flex h-1/2 w-full overflow-hidden items-center justify-center"
             key={index}
             custom={direction}
-            variants={imageVariants}
+            // variants={imageVariants}
             initial="enter"
             animate="center"
             exit="exit"
@@ -133,7 +133,7 @@ export default function Projetos(
             <AnimatePresence custom={direction} mode="wait" initial={false}>
                 <motion.div className="flex-1 p-6 flex flex-col items-center justify-center text-center"
                 key={index}
-                variants={imageVariants}
+                // variants={imageVariants}
                 custom={direction}
                 initial="enter"
                 animate="center"
@@ -142,7 +142,7 @@ export default function Projetos(
                     <h1 className="text-3xl font-bold mb-4">{projeto_atual.titulo}</h1>
                     <p className="mb-6 max-w-2xl">{projeto_atual.descricao}</p>
                     
-                    {/* Technologies */}
+                    {/* Technologies
                     <div className="flex flex-wrap justify-center gap-2 mb-6">
                         {projeto_atual.tecnologias.map((tech, index) => (
                         <a href={`#habilidades`}>    
@@ -150,7 +150,7 @@ export default function Projetos(
                             {tech}
                         </span></a>
                         ))}
-                    </div>
+                    </div> */}
                     
                     {/* Project Links */}
                     <div className="flex gap-4 mb-8">
